@@ -1,0 +1,9 @@
+:root { --paper:#EFEBE3; --ink:#2B2F2A; --sage:#3F4A37; --breath:#5F8F8C; --muted:#6B7066; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family: Georgia, "Times New Roman", serif; line-height:1.6; }
+main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+h1 { font-weight: normal; font-size: 2rem; margin: 0 0 4px; }
+.sub { color: var(--muted); font-style: italic; margin: 0 0 28px; }
+h2 { font-weight: normal; font-size: 1.2rem; margin: 28px 0 8px; color: var(--sage); }
+a { color: var(--breath); }
+p, li { margin: 0 0 12px; }
+.lang { font-size: .95rem; color: var(--muted); margin-top: 48px; border-top: 1px solid #d6d1c4; padding-top: 24px; }
